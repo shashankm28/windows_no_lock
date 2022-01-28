@@ -8,8 +8,6 @@ def no_lock(button):
         while True:
             pyautogui.press(button)
             time.sleep(2)
-            pyautogui.press(button)
-            time.sleep(3)
 
     except Exception as ex:
         print ('no_lock | Error: ', ex)
